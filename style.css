@@ -200,3 +200,9 @@ footer h4{
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
 }
+
+@media only screen and (min-width: 600px) {
+    nav {
+      max-width: 600px;
+    }
+  }
