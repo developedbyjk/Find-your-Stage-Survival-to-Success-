@@ -8,6 +8,4 @@ progressing from the:
 - Reason and Integrity Stage,🧠
 - and ultimately reaching the Spiritual Stage. ❤️
 
-📌How it Work ?
--_We all have Mainly 3 Stages in Life and each Stage have differnet Level_
-The Project Provide Infomation on how Each Level are
+
