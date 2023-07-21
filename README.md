@@ -9,3 +9,4 @@ progressing from the:
 - and ultimately reaching the Spiritual Stage. ❤️
 
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/698ec67a-3801-477c-8571-d7f08c34ce46/deploy-status)](https://app.netlify.com/sites/harmonious-crostata-bd8e76/deploys)
