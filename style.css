@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+    font-family: 'Lexend Deca', sans-serif;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    max-width: 600px;
+    margin: auto;
+}
+section{
+    background-color: ;
+    margin:2.5rem;
+    /* border: 1px solid green; */
+}
+
+#intro h3{
+    font-weight: lighter;
+
+}
+#intro h1{
+    text-align: center;
+}
+.card{
+    margin: 25px 0px;
+    /* background-color: dodgerblue; */
+    /* height: 150px; */
+    color: white;
+    border-radius: 10px;
+    position: relative;
+}
+.card-name{
+    font-size: 1.5rem;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid ;
+}
+.line{
+    height: 80px;
+    width: 1px;
+    background-color: white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.card-detail{
+    position: relative;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    /* background-color: yellow; */
+    height: 80px;
+}
+
+.card-i{
+    position: absolute;
+    right:45%;
+    bottom:-10px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 3px;
+}
+.card-description{
+    padding: 12px;
+    font-size: 0.8rem;
+    display: none;
+}
+#bold{
+    font-weight: bolder;
+}
+.es, .vol{
+    /* background-color: red; */
+    width: 50%;
+}
+.red-color{
+    background-color:  #ED1B24;
+}
+.blue-color{
+    background-color: dodgerblue;
+}
+.green-color{
+    background-color: #00A550;
+}
+
+nav span{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    margin: 0px 3px;
+}
+
+nav{
+    position: fixed;
+    top:93%;
+    width: 100%;
+    border-radius: 90px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    z-index: 9;
+    margin: auto;
+    display: block;
+   
+}
+.showit{
+    display: block;
+    /* background-color: yellow; */
+    padding-bottom: 30px;
+}
+#more-info{
+    position: absolute;
+    top:3%;
+    left: 85%;
+    font-size: 1.4rem;
+    background-color: white;
+    padding: 5px;
+    color: white;
+    border-radius: 50%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    cursor: pointer;
+}
+#more-info a{
+    text-decoration: none;
+}
+.how-to-use{
+    position: relative;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.how-to-use h5{
+    border-bottom: 1px solid gray;
+   
+}
+.how-to-use ul{
+    margin: 10px;
+}
+.how-to-use ul li{
+    font-size: 0.7rem;
+
+}
+
+#how-to-use-close{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    color: white;
+    border-radius: 50%;
+    background-color: #ED1B24;
+    margin-top: -25px;
+    right: 8px;
+
+}
+#how-to-use-close p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lexend Deca', sans-serif;
+}
+footer{
+    margin: 50px auto;
+    text-align: center;
+}
+footer p {
+    font-style: italic;
+}
+footer h4{
+    float: left;
+    font-weight: 300;
+}
+.developedbyjk{
+    letter-spacing: 2px;
+	text-align: center;
+
+	font-weight:  bold;
+	letter-spacing: 2px;
+    margin-top: 100px;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    border-radius: 20px 20px 0px 0px;
+    
+}
+.developedbyjk a{
+    
+    display: block;
+    padding-top: 120px;
+    background: -webkit-linear-gradient(#faf000, #00ff00);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
